@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
+body {
+
+    margin: 0;
+    font-family: 'Poppins';
+    background: #170f4b;
+    overflow-x: hidden
+    
+  }
+  
+
+.navbar {
+    display: flex;
+    justify-content: space-between;}
+.meno {
+        margin: 1em;
+    }
+.contact-btn, .button1 {
+    background-color: var(--primary-color);
+}
+.contact-btn, .meno,.about-me i{color: #b0b0b0;
+text-decoration: none;
+}
+
+
+.contact-btn{
+    border:solid 1px #f2f2f2;
+    height: 40%;
+    margin:1em;
+    cursor: pointer;
+    
+    
+}
+.contact-btn:hover {
+    opacity: 0.7;
+  }
+  .pop-up{
+      display: flex;
+      justify-content:center;
+      
+      
+      
+  }
+  .pop-up .container{
+      background: #f2f2f2;
+      position: absolute;
+      z-index: 20;
+      width: 65%;
+      height:85%;
+      min-height: 500px;
+      border-radius: 4px;
+      display: none;
+      font-family: 'Nuosu SIL', serif;
+      transform: translateY(10%);
+      padding-bottom: .7em;
+      overflow: hidden;
+      
+  }
+  .imail {
+      display: none;
+  }
+.pf {width: 40%;
+    border-radius: 100%;
+}
+.pop-up p{
+    font-size: medium;
+}
+i {
+    opacity: 5;
+}
+#close, #programming {
+    background-color: #0a1d2e;
+    color: white;
+    
+    font-size: 1em;
+    border: none;
+    
+    border-radius: 1em;
+    display: inline-block;
+    padding: .8em 1em;
+    width: unset;
+    cursor: pointer;
+    margin: .5em;
+    position:relative ;
+}
+#close:hover, #programming:hover {
+    opacity: 0.9;
+}
+
+.about-me .container h1,.button1 {
+    color: #f2f2f2;
+}
+
+.about-me {
+    text-align: center;
+    padding-bottom: 3em;
+    background:linear-gradient(#170f4b,#13376b);
+    width: 100vw;
+    
+    
+}
+.hi {
+    font-size: large;
+    font-weight: bold;
+}
+.button1 {
+    border:solid 1px #b0b0b0;
+    border-radius: 6px;
+    margin-top: 1em;
+    height: 2em;
+    font-size: larger;
+    cursor: pointer;
+
+}
+.button1:hover {
+    opacity: 0.7;
+}
+.fa {
+    color: #f2f2f2;
+    margin-left: .3em;
+    margin-right: .3em;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+  }
+.socials{
+    margin-top: 1em;
+}
+
+#myVideo {
+    
+    object-fit: cover;
+    z-index: -10;
+    width: 100vw;
+    position: absolute;
+    
+  }
+.skills {
+    height: 150px;
+    
+    
+
+}
+ 
+section {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+  }
+
+
+.contact-me {
+    
+    padding-top: 3em;
+    text-align: center;
+    padding-bottom: 6em;
+    background:linear-gradient(#13376b,#170f4b);
+    color: #f2f2f2;
+    width: 100vw;
+}
+.submit {
+    background-color: #0a1d2e;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    border: none;
+    
+    border-radius: 5em;
+    display: inline-block;
+    padding: .8em 2em;
+    width: unset;
+    cursor: pointer;
+    margin-top: 1em;
+    
+    
+  }
+
+@media only screen and (min-width: 400px)  {
+    
+    .hi {
+            font-size: x-large;}
+    #close, #programming {
+                padding: .8em 2em;
+            }}
+    
+@media only screen and (min-width: 495px)  {
+    .skills {
+        height: 270px;
+            }  
+    }        
+        
+    
+
+  @media only screen and (min-width: 600px)  {
+    
+    .hi {
+            font-size: xx-large;}
+    
+    .imail {
+        display: block;
+    }
+    
+  }
+  @media only screen and (min-width: 800px)  {
+    .pop-up .container {
+        width: 35%;
+    }
+    
+  }
+  
+   
+@media only screen and (min-height: 680px) {
+    .pop-up .container {overflow-y: hidden;
+    position: fixed;
+    height: 75%;
+    padding:0 ;
+    transform: translateY(-10%);}
+    .stop-scrolling{
+        overflow: hidden;
+        
+    
+    }
+   
+
+  }
+  @media only screen and (min-width: 975px) {
+      .skills {
+        height: 540px;
+      }  
+      
+    #close, #programming {
+        margin: 1em;
+    }}

@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
+
+body {
+
+    margin: 0;
+    font-family: 'Poppins';
+    background:url("../Assets/bg-programming2.jpg");
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100%;
+    padding: 0;
+    
+    
+  }
+ h1 {
+    text-align: center;
+    color: #f2f2f2;
+  text-decoration: none;
+    
+  }
+.main, ul, a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+.main {
+  margin-top:10vw;
+}
+
+.git {
+  
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background: #170f4b;
+  color: #f2f2f2;
+  justify-content: center;
+  cursor: pointer;
+  
+  
+  position: absolute;
+  margin-top:5vw;
+  
+  
+}
+.git:hover {
+  opacity: 0.5;
+}
+
+.fa-arrow-left, .home {
+  margin: .4em;
+  cursor: pointer;
+}
+
+
+h1,h3 {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+.pb1 {
+  text-align: center;
+  color: #f2f2f2;
+  margin: .3em;
+  
+}
+/* copied */
+.skill {
+  margin-bottom: 35px;
+  position: relative;
+  overflow-x:hidden;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+
+
+.skill:before {
+  width: 100%;
+  height: 10px;
+  content: "";
+  display: block;
+  position: absolute;
+  background: #959595;
+  bottom: 0;
+}
+
+.skill-bar {
+  width: 100%;
+  height: 10px;
+  background:#f4392f;
+  display: block;
+  position: relative;
+}
+
+.skill-bar span {
+  position: absolute;
+  border-top: 5px solid #f4392f;
+  top: -30px;
+  padding: 0;
+  font-size: 18px;
+  padding: 3px 0;
+  font-weight: 500;
+}
+
+.skill-bar {
+  position: relative;
+}
+
+.skill1 .skill-count1 {
+  right: 0;
+}
+
+.skill1 {
+  width: 70%;
+  animation: introLoad 2s forwards; 
+  overflow: hidden;
+}
+.skill2 .skill-count2 {
+  right: 0;
+}
+
+.skill2 {
+  width: 75%;
+  animation: introLoad 2s forwards; 
+  overflow: hidden;
+}
+
+@keyframes introLoad {
+
+  from {
+    /* opacity: 0;
+    transform: translate3d(-100%, -100%, 0); */
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  }
+  
+
+  to {
+    /* opacity: 1;
+    transform: translate3d(0, 0, 0); */
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+
+  }
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
+
+body {
+
+    margin: 0;
+    font-family: 'Poppins';
+    background:#13376b;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+
+
+.button {
+    background-color: #0a1d2e;
+    color: white;
+    
+    font-size: 1em;
+    border: none;
+    
+    border-radius: 1em;
+    display: inline-block;
+    padding: .8em 2em;
+    width: unset;
+    cursor: pointer;
+    
+}
+h1 {
+    color: #f2f2f2;
+}
+
+.div {
+    
+    position: absolute;
+    top: 45%;
+}
