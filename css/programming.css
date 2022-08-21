@@ -6,9 +6,10 @@ body {
     margin: 0;
     font-family: 'Poppins';
     background:url("../Assets/bg-programming2.jpg");
+    overflow-y: scroll;
     overflow-x: hidden;
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     padding: 0;
     
     
@@ -57,7 +58,7 @@ h1,h3 {
   margin-top: 1.5em;
   margin-bottom: 1.5em;
 }
-.pb1 {
+.icons {
   text-align: center;
   color: #f2f2f2;
   margin: .3em;
@@ -125,7 +126,9 @@ h1,h3 {
   animation: introLoad 2s forwards; 
   overflow: hidden;
 }
-
+@media only screen and (min-height: 420px) {
+  body {overflow-y: hidden;}
+}
 @keyframes introLoad {
 
   from {
