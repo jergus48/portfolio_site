@@ -110,7 +110,7 @@ h1,h3 {
 
 
 .skill1 {
-   width: 70%; /*progress */
+   width: 75%; /*progress */
   animation: introLoad 2s forwards; 
   overflow: hidden;
 }
